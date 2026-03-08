@@ -104,7 +104,7 @@ function App() {
     })
 
     // AI State
-    const [aiApiKey, setAiApiKey] = useState(import.meta.env.VITE_GEMINI_API_KEY || '')
+    const [aiApiKey, setAiApiKey] = useState(process.env.NEXT_PUBLIC_GEMINI_API_KEY || '')
     const [aiModel, setAiModel] = useState('gemini-3.1-flash-lite-preview')
     const [aiLoading, setAiLoading] = useState(false)
     const [aiInsights, setAiInsights] = useState(null)
@@ -486,7 +486,7 @@ function App() {
                                 <p className="text-slate-400 font-medium">Click generate to receive AI-powered business recommendations.</p>
                                 <div className="mt-4 flex items-center gap-2 text-[10px] text-slate-500 uppercase tracking-widest font-bold">
                                     <Key className="w-3 h-3" />
-                                    Requires VITE_GEMINI_API_KEY in .env
+                                    Requires NEXT_PUBLIC_GEMINI_API_KEY in .env
                                 </div>
                             </div>
                         )}
@@ -567,7 +567,7 @@ function App() {
                                 To use the Gemini strategy engine, you'll need a Google AI API Key.
                                 <br /><br />
                                 <span className="text-slate-300 font-semibold italic text-xs block bg-slate-800/50 p-3 rounded-lg border border-slate-700">
-                                    Tip: For permanent setup, add your key to a file named <b>.env</b> in the project root as `VITE_GEMINI_API_KEY=...`
+                                    Tip: For permanent setup, add your key to a file named <b>.env.local</b> in the project root as `NEXT_PUBLIC_GEMINI_API_KEY=...`
                                 </span>
                             </p>
 

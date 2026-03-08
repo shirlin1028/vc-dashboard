@@ -19,7 +19,7 @@ A modern, clean SaaS-style dashboard built with React and Tailwind CSS. The back
 3. **Configure Gemini AI**:
    Add your Gemini API key to your `.env` file:
    ```env
-   VITE_GEMINI_API_KEY=your_gemini_key
+   NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_key
    ```
 4. **Run the development server**:
    ```bash

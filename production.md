@@ -28,7 +28,7 @@ During the import process, or via the **Settings -> Environment Variables** tab 
 - `DATA_SOURCE`: Set to `supabase` (Strongly recommended for Vercel vs using local CSV logic which might fail if Vercel doesn't bundle the CSV natively).
 - `SUPABASE_URL`: Your Supabase Project URL.
 - `SUPABASE_ANON_KEY`: Your Supabase anon public key.
-- `VITE_GEMINI_API_KEY`: Your Gemini API key.
+- `NEXT_PUBLIC_GEMINI_API_KEY`: Your Gemini API key.
 
 > **Note:** Even though Next.js doesn't natively use `VITE_`, if your `.env` relies on it, keep the name exactly as it works locally, or update the code to use standard environment variable naming if you refactored fully.
 

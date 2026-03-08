@@ -57,5 +57,11 @@ The application is cloud-ready! Follow these simple steps to move from a static 
    ```
 6. **Restart & Enjoy**: Restart your development server (`npm run dev`). The API will now serve data directly from Supabase!
 
+## 🚀 Deployment (Vercel)
+
+This project has been updated from Vite to a **Next.js App Router** structure, making it perfectly optimized for Vercel.
+
+Read the [Vercel Production Guide](production.md) to confidently deploy your dashboard online!
+
 ---
 Built with Vibe by Antigravity.

@@ -1,0 +1,34 @@
+# Logic
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Production
+build/
+
+# Environment Variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
